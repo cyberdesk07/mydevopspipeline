@@ -1,5 +1,8 @@
 ###### jenkins pipeline for ARGOCD AND KUBERNETES ########
+1. **Configure CI/CD Pipeline in Jenkins:**
+- Create a CI/CD pipeline in Jenkins to automate your application deployment.
 
+```groovy
 pipeline {
     agent any
     tools {
@@ -92,7 +95,9 @@ pipeline {
         }
     }
 }
+```
 
+Certainly, here are the instructions without step numbers:
 
 
 
